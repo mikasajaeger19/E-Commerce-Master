@@ -1,0 +1,53 @@
+.navbar {
+    display: flex;
+    align-items: center; /* Vertically centers items */
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.navbar > h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.navbar > h3 a {
+    text-decoration: none;
+}
+
+.nav--cname {
+    margin-left: 40px;
+    cursor: default;
+}
+
+.nav--admin {
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.nav--home {
+    margin-left: auto;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.nav--cart {
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.nav--account {
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.nav--cname::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+    background-color: cyan;
+}

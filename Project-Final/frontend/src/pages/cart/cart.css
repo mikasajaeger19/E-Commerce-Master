@@ -1,0 +1,59 @@
+/* cart.css */
+
+/* Overall cart container */
+.cart {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Cart title */
+.cart h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Cart items container */
+.cart_items {
+  margin-bottom: 20px;
+}
+
+/* Checkout and Home buttons container */
+.checkout,
+.home {
+  margin-bottom: 10px;
+}
+
+/* Checkout and Home buttons */
+.checkout button,
+.home button {
+  display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.checkout button:hover,
+.home button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Link styles */
+.link-button {
+  text-decoration: none;
+  color: rgb(0, 0, 0) 255, 0;
+  font-weight: bold;
+}
+
+.link-button:hover {
+  text-decoration: underline;
+}

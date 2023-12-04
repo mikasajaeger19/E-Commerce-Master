@@ -1,0 +1,52 @@
+.anavbar {
+    display: flex;
+    align-items: center; /* Vertically centers items */
+    font-family: 'Roboto',sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.anavbar >h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.anavbar > h3 a {
+    text-decoration: none;
+}
+
+.anav--cname{
+    margin-left:40px;
+    cursor: default;
+}
+
+.anav--admin{
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.anav--home{
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.anav--cart{
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.anav--account{
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.anav--cname::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+    background-color: cyan;
+}
